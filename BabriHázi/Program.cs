@@ -17,7 +17,7 @@ namespace BabriHázi
             {
                 for (int j = 1; j <= i; j++)
                 {
-                    if (szam % j == 0)
+                    if (i % j == 0)
                     {
                         összeg += j;
                     }
